@@ -1458,9 +1458,8 @@ section,
   /* Add your styles here */
 }
 
-/* Button Styling */
 .btn-submit {
-  background: #007bff;       /* Primary blue color */
+  background: #007bff;       
   color: #fff;
   padding: 12px 25px;
   border: none;
@@ -1470,8 +1469,8 @@ section,
   text-transform: uppercase;
   cursor: pointer;
   transition: 0.3s ease;
-  width: 100%;               /* Full-width on small screens */
-  max-width: 200px;          /* Keeps it neat on larger screens */
+  width: 100%;               
+  max-width: 200px;         
 }
 
 /* Hover effect */
