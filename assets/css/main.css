@@ -1457,3 +1457,39 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Button Styling */
+.btn-submit {
+  background: #007bff;       /* Primary blue color */
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;               /* Full-width on small screens */
+  max-width: 200px;          /* Keeps it neat on larger screens */
+}
+
+/* Hover effect */
+.btn-submit:hover {
+  background: #0056b3;
+}
+
+/* Center Button */
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* Make responsive adjustments */
+@media (max-width: 576px) {
+  .btn-submit {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    max-width: 100%;
+  }
+}
